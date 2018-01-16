@@ -1,0 +1,668 @@
+/*  CLASES GENERALES  */
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('assets/images/bg-general.jpg');
+    font-family: 'Montserrat';
+    margin: 0;
+    line-height: 1.2em;
+    font-size: 15px;
+}
+.triang-arriba {
+    width: 0; 
+    height: 0; 
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+    border-bottom: 22px solid #e4e4e5;
+    margin: 0px auto 5px;
+}
+li.active > a { color: #3d7bb9 !important; }
+
+@media (min-width: 1200px){
+    .container {
+        width: 1250px;
+        padding: 0;
+    }
+    .sombra{
+        -webkit-box-shadow: 0px 2px 20px 7px rgba(0,0,0,0.5);
+        -moz-box-shadow: 0px 2px 20px 7px rgba(0,0,0,0.5);
+        box-shadow: 0px 2px 20px 7px rgba(0,0,0,0.5);
+    }
+}
+hr{
+    -webkit-box-shadow: 0px 7px 8px 5px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 7px 8px 5px rgba(0,0,0,0.5);
+    box-shadow: 0px 7px 8px 5px rgba(0,0,0,0.5);
+}
+/*.diagonal-neg{
+    -webkit-transform: skew(0deg,-2deg);
+}
+.diagonal-pos{
+    -webkit-transform: skew(0deg,2deg);
+}*/
+.section-arrow-upper{
+    width: 100%;
+    position: relative;
+    z-index: 10;
+}
+.section-arrow-down{
+    width: 100%;
+    position: relative;
+    z-index: 10;
+}
+.margin-0{
+    margin: 0 !important;
+}
+.btn-naranja{
+    background-color: #F58231;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.txt-blue{
+    color: #2894C6;
+}
+.w-100{
+    width: 100%;
+}
+.h-100{
+    height: 100px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mt-25{
+    margin-top: 25px;
+}
+
+iframe{
+    border: 5px solid #838383;
+}
+
+.fecha{
+    display: inline-block;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border: 1px solid #333;
+}
+
+h2{
+    margin: 25px 0 30px;
+    color: #999999;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-size: 47px;
+    font-weight: 700;
+}
+h4{
+    font-size: 21px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    margin-bottom: 7px;
+    font-weight: 800;
+}
+
+/*  BARRA DE NAVEGACIÓN  */
+
+.nav{
+    height: 70px;
+}
+.nav-custom{
+    background-color: #000;
+    color: #fff;
+}
+.container-fluid {
+    padding-right: 5px;
+}
+#menu-navigation {
+    padding: 0;
+}
+.nav-upper{
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    background-color: #000;
+    margin-right: 10px;
+}
+.nav-upper li{
+    padding: 0;
+    font-size: 35px;
+    font-family: 'Montserrat';
+}
+.nav-afiliate{
+    background-color: #00b0e9;
+    padding: 10px 15px;
+}
+.nav-upper li a {
+    padding: 8px 20px;
+    text-transform: uppercase;
+    font-size: 11pt;
+    color: #fff;
+    font-family: 'Montserrat';
+    display: inline-block;
+    font-weight: 700;
+    text-decoration: none;
+}
+.navbar-thn{
+    background-color: #fff;
+    color: #000;
+    border-radius: 0;
+    height: 70px;
+    margin-bottom: 0;
+    box-shadow: 0 2px 15px -2px grey;
+    z-index: 2;
+}
+.navbar-brand img{
+    width: 275px;
+    margin-top: 0;
+}
+.nav > li > a {
+    padding: 5px 20px;
+    text-transform: uppercase;
+    font-size: 15pt;
+    color: #000;
+    margin-top: 16pt;
+    font-family: 'Montserrat';
+    font-weight: 800;
+}
+.nav > li > a:focus, .nav > li > a:hover, .nav > li > a:active {
+    text-decoration: none;
+    background-color: transparent;
+    color: #5992CB !important;
+}
+
+/*  SECCIÓN - BENEFICIOS */
+
+.beneficios{
+    padding: 5em 1.5em 1em;
+    position: relative;
+    z-index: -1;
+    background-color: #fff;
+    margin-top: -65px;
+}
+.contenido-beneficio img {
+    height: 75px;
+    margin: 5px 0 15px;
+}
+.contenido-beneficio p {
+    font-size: 17px;
+    color: #707070;
+    width: 85%;
+    margin: 10px auto 0;
+    line-height: 1.3em;
+}
+.col-md-3.col-xs-6 {
+    border-right: 1px solid #dedede;
+    height: 230px;
+    padding: 15px 0 0;
+}
+.col-md-3.col-xs-6:nth-child(4) {
+    border-right: none;
+}
+    
+/*  SECCIÓN - ACERCA-DE */
+
+.acerca-de{
+    background-image: url('assets/images/fondo-quienes.png');
+    background-repeat: no-repeat;
+    z-index: 2;
+    position: relative;
+}
+.transparencia{
+    z-index: 1;
+    margin-top: 5.5em;
+    padding: 0 50px 0 5px;
+    height: 550px;
+}
+.transparencia ul{
+    padding: 0;
+    transform: skew(8deg);
+}
+.transparencia p {
+    margin: 0 0 10px;
+    font-style: italic;
+}
+.transparencia h4 {
+    font-style: italic;
+}
+.transparencia img{
+    margin-top: -55px;
+    margin-right: -15px;
+}
+.acerca-de li{
+    list-style: none;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: justify;
+    
+}
+.list-flecha{
+    position: relative;
+}
+.list-flecha img{
+    position: absolute;
+    left: -40px;
+    bottom: -5px;
+    height: 35px;
+}
+
+/*  PÁGINAS: INDEX - INTRANET - CONTACTO || SECCIÓN: MARCAS */
+
+.contacto, .intranet, .marcas{    
+    padding: 5em;
+    position: relative;
+    margin-top: -60px;
+    z-index: 1;
+    background-color: #fff;
+}
+.marcas-index{
+    margin-top: -100px;
+    padding: 8em 0;
+}
+
+.map{
+    text-align: center;
+    padding: 1em;
+}
+.map p {
+    margin: 15px 0 0;
+    color: #F58231;
+    font-size: 20pt;
+    font-weight: bold;
+}
+.detalle-contacto{
+    background: url('assets/images/img-contacto.png');
+    background-position: 115% 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 30px 0 60px;
+    -webkit-box-shadow: 4px 0px 5px 1px rgba(0,0,0,0.25);
+    -moz-box-shadow: 4px 0px 5px 1px rgba(0,0,0,0.25);
+    box-shadow: 4px 0px 5px 1px rgba(0,0,0,0.25);
+    padding: 50px 0px 35px;
+}
+
+/*  FOOTER  */
+
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 1.1em 0 .8em;
+    margin-top: 45px;
+}
+
+/*   ADICIONALES   */
+
+.marcas .carousel-inner{
+    width: 90%; 
+    margin: 0 auto;
+}
+.carousel-indicators {
+    bottom: 10px;
+}
+.carousel-indicators .active {
+    width: 70px;
+    height: 5px;
+    margin: 1px 3px;
+    background-color: #2894c6;
+    border: 1px solid #2894c6;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 70px;
+    height: 5px;
+    margin: 1px 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000\9;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #fff;
+    border-radius: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.68);
+}
+
+/*  POPUP  */
+
+.modal-dialog {
+    width: 35%;
+    margin: 40px auto 15px;
+}
+.modal-body {
+    padding: 5px;
+}
+.modal-header {
+    padding: 5px 10px 0px 0;
+    border-bottom: none;
+}
+.close {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+/* CATALOGO */
+
+.catalog {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    width: 90%;
+    position: relative;
+    margin: 0 auto;
+    padding: 0 0 5em;
+}
+
+/*  AFILIATE  */
+
+.afiliate{
+    background-color: #fff;
+    padding-top: 2em;
+    border-top: 1px solid #80808033;
+}
+textarea {
+    resize: none;
+    padding: 13px;
+}
+.nf-before-form-content {
+    margin-bottom: 25px;
+}
+.ninja-forms-field, .nf-error .ninja-forms-field {
+    border: 1px solid #2595ca !important;
+    border-radius: 0;
+    padding: 10px;
+}
+.ninja-forms-req-symbol, .nf-error-msg {
+    color: #E80000;
+    font-size: 12px;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.nf-field-container, #ninja_forms_required_items {
+    margin-bottom: 15px !important;
+}
+.field-wrap input[type="submit"], .field-wrap input[type="button"], .field-wrap button {
+    width: 100% !important;
+    background-color: #F58231;
+    color: #fff;
+    border: none !important;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+/*  MOBILE  */
+
+@media (max-width: 700px) {
+    body{
+        background: none;
+        line-height: 1.2em;
+        font-size: 13px;
+    }
+    .container {
+        padding: 0;
+    }
+    .row {
+        margin: 0;
+    }
+    .col-md-3.col-xs-6 {
+        padding: 0;
+        border-right: 0;
+        height: 145px;
+    }
+    .navbar-brand img {
+        width: 200px;
+        margin-top: 5px;
+    }
+    .navbar-brand {
+        margin-top: 0px;
+    }
+    .navbar-thn {
+        height: 65px;
+    }
+    .nav-upper li a {
+        padding: 5px 15px;
+        text-transform: uppercase;
+        font-size: 10pt;
+    }
+    .navbar-toggle {
+        border: 1px solid #000;
+        margin-top: 15px;
+    }
+    .icon-bar {
+        background-color: #000;
+    }
+    .nav-upper {
+        text-align: right;
+        margin: 5px 10px 4px 0;
+    }
+    .nav-upper li {
+        padding: 0px;
+        font-size: 9px;
+        display: inline;
+    }
+    .nav-upper li img {
+        height: 10px;
+        vertical-align: text-top;
+    }
+    .nav {
+        height: auto;
+    }
+    #menu-navigation {
+        position: relative;
+        z-index: 1000;
+        background-color: #fff;
+    }
+    .nav > li > a {
+        padding: 10px 20px;
+        font-size: 15px;
+        margin-top: 0px;
+    }
+    .navbar-nav {
+        margin: 0;
+    }
+    h2 {
+        font-size: 27px;
+        margin: 40px 0 15px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    h4 {
+        font-size: 16px;
+    }
+    hr{
+        display: none;
+    }
+    .beneficios {
+        padding: 60px 0em 2em;
+    }
+    .col-xs-12{
+        border-right: 0 !important;
+    }
+    .marcas{
+        width: 100%;
+        margin: 0;
+        padding: 2em;
+    }
+    .marcas img{
+        width: 100%;
+    }
+    .contenido-beneficio img {
+        height: 40px;
+        margin: 5px 0 10px;
+    }
+    .contenido-beneficio p {
+        font-size: 12px;
+        line-height: 1.2em;
+        margin: 5px auto 0;
+        width: 90%;
+    }
+    .triang-abajo {
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        border-top: 13px solid #2894C6;
+        margin: 2px auto 0;
+    }
+    .triang-arriba {
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-bottom: 10px solid #e4e4e5;
+    }
+    .acerca-de{
+        background-image: none;
+        background-color: #00b0e9;
+    }
+    .transparencia img {
+        display: none;
+    }
+    .transparencia p, .transparencia h4{
+        font-style: normal;
+    }
+    .transparencia ul {
+        padding: 0;
+        transform: none;
+    }
+    .transparencia {
+        padding: 2em;
+        margin: 1em 0 .5em;
+        height: auto;
+    }
+    footer {
+        padding: 3em 0 2em;
+        font-size: 10px;
+        margin-top: 20px;
+    }
+    .h-100 {
+        height: 70px;
+    }
+    .modal-dialog {
+        width: 65%;
+    }
+    .carousel-indicators {
+        bottom: 17px;
+    }
+    .carousel-indicators .active {
+        width: 20px;
+        height: 2px;
+    }
+    .carousel-indicators li {
+        width: 20px;
+        height: 2px;
+    }
+    .catalog{
+        width: 100%
+        margin-top: 15px;
+    }
+    .content li {
+        height: 80%;
+    }
+    .buttons button {
+        padding: 5px;
+    }
+    .catalog .buttons {
+        height: 18%;
+        left: 12%;
+        transform: translate(15%, 0);
+        font-size: 18px;
+    }
+    .mt-25 {
+        margin-top: 15px;
+    }
+    .intranet{
+        padding: 40px 1em 1.5em;
+    }
+    .intranet .diagonal-neg p {
+        margin-top: 10px;
+    }
+    .contacto {
+        padding: 40px 1em 1em;
+    }
+    .row.center.detalle-contacto {
+        margin-top: 15px;
+        background: none;
+    }
+    .detalle-contacto p {
+        margin-bottom: 6px;
+    }
+    .col-md-5.col-xs-12 {
+        padding: 5px;
+    }
+    .map {
+        padding: 0;
+    }
+    .map p {
+        margin: 10px 0 20px;
+        font-size: 15px;
+    }
+    #nf-form-1-cont {
+        padding: 10px 15px;
+        background: #fff;
+    }
+    #nf-field-4 {
+        font-size: 15px !important;
+        padding: 10px 0;
+        margin-top: 10px;
+    }
+    .marca-logo{
+        border-right: 0 !important;
+    }
+    .marcas .carousel-inner{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .carousel-control{
+        display: none;
+    }
+    .marca-logo {
+        position: relative;
+        height: 90px;
+        margin-top: -30px;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .catalog {
+        width: 100%;
+        min-height: 220px;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 550px) {
+    .catalog {
+        width: 100%;
+        margin: 20px auto 0;
+        min-height: 370px;
+    }
+}
+
+
+
+.marca-logo{
+    position: relative;
+    height: 110px;
+}
+
+.marca-logo img{
+    padding-top: 0;
+    height: 80px;
+    margin-top: 15px;
+}
+
+.reclamaciones h3 {
+    font-size: 20px;
+}
+.reclamaciones label {
+    font-weight: 500 !important;
+}
+
+.carousel-control{
+    width: 40px;
+    background-image: none !important;
+    background-color: rgba(0,0,0,.3) !important;
+}
